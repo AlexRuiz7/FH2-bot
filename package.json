@@ -1,0 +1,24 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "fh2-bot",
+  "version": "1.0.0",
+  "description": "Proporciona información sobre los servidores de Forgotten Hope 2",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "discord.js": "^11.4.2"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/fh2-bot"
+  },
+  "license": "MIT"
+}
